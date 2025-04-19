@@ -19,6 +19,7 @@ This is a sample landing page built with **HTML** and **CSS**. It showcases a mo
 
 - HTML5
 - CSS3 (including custom styling and layout techniques)
+- JavaScript for interactivity
 - Git & GitHub for version control and deployment
 
 ## 📁 Folder Structure
