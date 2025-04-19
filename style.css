@@ -86,7 +86,7 @@ body {
     }
   
     .nav-links.open {
-      display: flex;
+      display: contents;
     }
   
     .nav-links li {
@@ -224,5 +224,97 @@ body {
     margin-top: 1rem;
     font-weight: 600;
     color: #0077ff;
+}
+
+.cta {
+    background: linear-gradient(90deg, #0077ff, #00bfff);
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+  
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+  
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+  
+.btn-cta {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #fff;
+    color: #0077ff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+  
+.btn-cta:hover {
+    background-color: #005bb5;
+    color: #fff;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+  
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+  
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00bfff;
+}
+  
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+}
+  
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+  
+.footer-links a:hover {
+    color: #fff;
+}
+  
+.footer-copy {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-socials a {
+    color: #bbb;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+  
+.footer-socials a:hover {
+    color: #00bfff;
 }
   
