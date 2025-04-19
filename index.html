@@ -14,8 +14,14 @@
   <header class="header">
     <div class="container nav-container">
       <div class="logo">MyBrand</div>
+      
       <nav class="nav">
-        <ul class="nav-links">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">Features</a></li>
           <li><a href="#">Pricing</a></li>
@@ -25,5 +31,63 @@
     </div>
   </header>
 
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Welcome to MyBrand</h1>
+        <p>Your one-stop solution to modern web design needs.</p>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+      <div class="hero-img">
+        <img src="https://source.unsplash.com/600x400/?technology,web" alt="Hero Image">
+      </div>
+    </div>
+  </section>
+   
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Fast Performance</h3>
+          <p>Optimized for speed and smooth experience.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Responsive Design</h3>
+          <p>Looks great on any screen size.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Easy to Use</h3>
+          <p>User-friendly interface built with love.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="testimonials">
+    <div class="container">
+      <h2>What Our Users Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p>"This platform changed how I manage my workflow. Super clean UI!"</p>
+          <h4>- Alex J.</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Impressed by the simplicity and speed. Highly recommend!"</p>
+          <h4>- Jamie L.</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Reliable and intuitive. The dark mode is a nice touch."</p>
+          <h4>- Taylor M.</h4>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p>"Our team productivity improved by 40% after switching to this service. Truly a game-changer!"</p>
+        <h4>- DeltaTech Solutions</h4>
+      </div>      
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
 </body>
 </html>
