@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Sample Landing Page
 
 This is a sample landing page built with **HTML** and **CSS**. It showcases a modern, professional landing page like what you'd see for a startup or product. This site is deployed live using **GitHub Pages**.
 
